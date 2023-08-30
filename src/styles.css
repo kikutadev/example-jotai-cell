@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.App table th {
+  background-color: lightgray;
+}
+
+.App table tr:first-of-type th {
+  width: 80px;
+}
+
+.App table tr:first-of-type th:first-of-type {
+  width: 25px;
+}
+
+.App table td {
+  border: 1px solid lightgray;
+  height: 1.5em;
+  overflow: scroll;
+}
+
+.App input {
+  width: 60px;
+  height: 1em;
+}
